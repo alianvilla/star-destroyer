@@ -22,7 +22,7 @@ const Star = ({id, position, destroyStarById}) => {
     
     return (
         <div 
-        className="star" 
+        className="star shake-horizontal" 
         style={{left: position.x, 
                 top: position.y,
                 cursor: 'pointer'
